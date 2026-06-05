@@ -43,3 +43,40 @@ body {
 .float-card {
   animation: float 3s ease-in-out infinite;
 }
+@keyframes scan {
+  0% {
+    top: 0%;
+  }
+
+  50% {
+    top: 95%;
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+
+.scanner-line {
+  animation: scan 3s linear infinite;
+}
+@keyframes scanResume {
+  0% {
+    top: 0%;
+    opacity: 1;
+  }
+
+  50% {
+    top: 95%;
+    opacity: 1;
+  }
+
+  100% {
+    top: 0%;
+    opacity: 1;
+  }
+}
+
+.scanner-line {
+  animation: scanResume 5s linear infinite;
+}

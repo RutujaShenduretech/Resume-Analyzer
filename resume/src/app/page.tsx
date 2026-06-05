@@ -2,11 +2,13 @@ import HowItWorks from "@/components/HowItWorks";
 import Image from "next/image";
 import Link from "next/link";
 import AtsDemo from "@/components/AtsDemo";
+import Features from "@/components/Features";
+import BeforeAfter from "@/components/BeforeAfter";
 
 export default function Home() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-sky-50 via-white to-white">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 lg:py-24">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-10 lg:py-14">
 
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
 
@@ -133,10 +135,12 @@ export default function Home() {
           </div>
 
         </div>
-
+    
       </div>
       <HowItWorks></HowItWorks>
       <AtsDemo></AtsDemo>
+      <Features></Features>
+      <BeforeAfter></BeforeAfter>
     </section>
   );
 }
