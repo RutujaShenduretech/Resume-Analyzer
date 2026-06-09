@@ -15,7 +15,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Resume Builder", href: "/builder" },
+    { name: "Resume Builder", href: "/resume" },
     { name: "ATS Checker", href: "/ats-checker" },
     { name: "Resources", href: "/resources" },
   ];
