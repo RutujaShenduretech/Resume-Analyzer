@@ -1,11 +1,10 @@
-"use client";
 import {
   Upload,
   ScanSearch,
   Brain,
   Download,
 } from "lucide-react";
-import { useState } from "react";
+
 export default function HowItWorks() {
   const steps = [
     {

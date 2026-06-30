@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200 border border-sky-400">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-14">
@@ -146,4 +146,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

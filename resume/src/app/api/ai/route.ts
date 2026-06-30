@@ -6,16 +6,16 @@ export async function POST(req: NextRequest) {
     const { section, text } = await req.json();
 
     const prompt = `
-You are an ATS Resume Expert.
+      You are an ATS Resume Expert.
 
-Improve the following ${section} section.
+      Improve the following ${section} section.
 
-Rules:
-- ATS Friendly
-- Professional tone
-- Use action verbs
-- Add measurable achievements if possible
-- Keep concise
+      Rules:
+        - ATS Friendly
+        - Professional tone
+      - Use action verbs
+            - Add measurable achievements if possible
+        - Keep concise
 
 Content:
 ${text}
@@ -38,7 +38,7 @@ Return only improved text.
         success: false,
         message: "AI generation failed",
       },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

@@ -26,5 +26,5 @@ export default function RootLayout({
   <Footer />
 </ClerkProvider>      </body>
     </html>
-  );9
+  );
 }
