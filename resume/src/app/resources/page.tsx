@@ -97,6 +97,7 @@ export const hrQuestions = [
     answer:
       "Talk about your internship, academic project, certification, hackathon, or any accomplishment where your contribution made a positive impact."
   }
+  
 
 ];
 
